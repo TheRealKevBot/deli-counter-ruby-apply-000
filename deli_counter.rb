@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 # Write your code here.
 katz_deli = []
+customer_num = 0 
 
 def line(katz_deli)
 
@@ -18,11 +19,9 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli)
-  customer_num = 1 
   katz_deli << customer_num
   customer_num =+ 1 
-  
-  puts "Welcome, #{customer}. You are number #{katz_deli.length} in line."
+  puts "Welcome, you are ticket number: #{customer_num}"
 end
 
 def now_serving(katz_deli)
